@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.5s, color 0.5s;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #444;
+  padding: 1rem 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.theme-buttons button {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.light-theme {
+  background: #f0f0f0;
+  color: #222;
+}
+
+.dark-theme {
+  background: #121212;
+  color: #eee;
+}
+
+.custom-theme {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  color: #fff;
+}
